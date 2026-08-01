@@ -111,7 +111,7 @@ export const SearchBar = () => {
             <div className="flex w-fit px-3 py-2 gap-2">
               <button
                 type="submit"
-                className="cursor-pointer border border-[var(--border-gray-even)] bg-amber-300 rounded-lg px-4 py-0.5 text-sm"
+                className="cursor-pointer border border-[var(--border-gray-even)] bg-amber-300 rounded-lg px-4 py-2 text-sm"
               >
                 Search
               </button>
@@ -123,25 +123,25 @@ export const SearchBar = () => {
         {/* Buttons to open different searches */}
         <div className="grid grid-cols-[140px_140px] gap-3">
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-0.5"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
             onClick={() => setActiveSearch("title")}
           >
             Search by title
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-0.5"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
             onClick={() => setActiveSearch("author")}
           >
             Search by author
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg not-[]:px-4 py-0.5"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg not-[]:px-4 py-2"
             onClick={() => setActiveSearch("year")}
           >
             Search by publish year
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-0.5"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
             onClick={() => setActiveSearch("subject")}
           >
             Search by genre
