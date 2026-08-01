@@ -10,7 +10,7 @@ export const HomeButton = () => {
         }`
       }
     >
-      <svg width="40" height="40" aria-hidden="true" className="text-red-500 xs:w-7 xs:h-7">
+      <svg width="40" height="40" aria-hidden="true" className="text-red-700 xs:w-7 xs:h-7">
         <use href="/assets/spritesheet.svg#icon-home"></use>
       </svg>
       <span className="hidden xs:inline xs:text-md font-semibold">Home page</span>

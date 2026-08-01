@@ -28,7 +28,7 @@ export const MyLayout = () => {
 
               {/* Toggle for the modal */}
               <button
-                className="text-center w-fit text-xs mx-auto cursor-pointer border border-[var(--border-gray-even)] bg-blue-300 rounded-lg px-4 py-1 mt-3"
+                className="text-center w-fit text-xs mx-auto cursor-pointer border border-[var(--border-gray-even)] bg-yellow-300 rounded-lg px-4 py-2 mt-3"
                 onClick={toggleAdvancedSearch}
               >
                 Show advanced search
