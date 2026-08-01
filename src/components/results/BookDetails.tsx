@@ -73,7 +73,7 @@ export const BookDetails = () => {
               <a
                 href={`https://openlibrary.org/books/${selectedBook.book_details.cover_edition_key}`}
                 target="_blank"
-                className="border border-[var(--border-gray-even)] bg-blue-300 rounded-lg px-4 py-2 text-sm text-center"
+                className="border border-[var(--border-gray-even)] bg-yellow-300 rounded-lg px-4 py-2 text-sm text-center"
               >
                 See more info on OpenLibrary
               </a>
