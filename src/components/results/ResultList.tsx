@@ -42,7 +42,7 @@ export const ResultList = () => {
       <div className="flex w-fit mb-2 mx-auto gap-6 h-fit">
         <button
           onClick={() => setListView(true)}
-          className={`block xs:hidden mx-auto cursor-pointer ${listView ? "text-red-500" : ""}`}
+          className={`block mx-auto cursor-pointer ${listView ? "text-red-700" : "text-zinc-500"}`}
         >
           <svg width="28" height="28" aria-hidden="true">
             <use href="/assets/spritesheet.svg#icon-list"></use>
@@ -50,7 +50,7 @@ export const ResultList = () => {
         </button>
         <button
           onClick={() => setListView(false)}
-          className={`block xs:hidden mx-auto cursor-pointer ${!listView ? "text-red-500" : ""}`}
+          className={`block mx-auto cursor-pointer ${!listView ? "text-red-700" : "text-zinc-500"}`}
         >
           <svg width="24" height="24" aria-hidden="true">
             <use href="/assets/spritesheet.svg#icon-grid-dots"></use>
