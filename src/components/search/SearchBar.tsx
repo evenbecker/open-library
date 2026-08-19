@@ -123,25 +123,25 @@ export const SearchBar = () => {
         {/* Buttons to open different searches */}
         <div className="grid grid-cols-[140px_140px] gap-3">
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2 hover:bg-amber-300"
             onClick={() => setActiveSearch("title")}
           >
             Search by title
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2 hover:bg-amber-300"
             onClick={() => setActiveSearch("author")}
           >
             Search by author
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg not-[]:px-4 py-2"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg not-[]:px-4 py-2 hover:bg-amber-300"
             onClick={() => setActiveSearch("year")}
           >
             Search by publish year
           </button>
           <button
-            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2"
+            className="text-xs cursor-pointer border border-[var(--border-gray-even)] rounded-lg px-4 py-2 hover:bg-amber-300"
             onClick={() => setActiveSearch("subject")}
           >
             Search by genre
