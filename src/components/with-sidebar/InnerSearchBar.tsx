@@ -80,7 +80,7 @@ export const InnerSearchBar = () => {
               <Input
                 value={field.value}
                 name={config.name}
-                className="min-w-[300px] border border-[var(--border-gray-even)] rounded-lg h-9 px-3 text-sm"
+                className="min-w-[300px] border border-[var(--border-gray-even)] rounded-lg h-9 px-3 text-sm focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
                 placeholder={config.placeholder}
                 required={true}
                 onChange={field.onChange}

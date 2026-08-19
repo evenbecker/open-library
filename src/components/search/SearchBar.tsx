@@ -97,7 +97,7 @@ export const SearchBar = () => {
                 <Input
                   value={field.value}
                   name={config.name}
-                  className="min-w-[300px] border border-[var(--border-gray-even)] rounded-lg h-11 px-3"
+                  className="min-w-[300px] border border-[var(--border-gray-even)] rounded-lg h-11 px-3 focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
                   placeholder={config.placeholder}
                   required={true}
                   onChange={field.onChange}

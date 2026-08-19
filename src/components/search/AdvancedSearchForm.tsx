@@ -62,7 +62,7 @@ export const AdvancedSearchForm = () => {
                 label="Title: "
                 value={field.value}
                 name="title"
-                className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm"
+                className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
                 placeholder=" Example: The Hobbit"
                 required={false}
                 onChange={field.onChange}
@@ -81,7 +81,7 @@ export const AdvancedSearchForm = () => {
               label="Author: "
               value={field.value}
               name="author"
-              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm"
+              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
               placeholder=" Example: J.R.R Tolkien"
               required={false}
               onChange={field.onChange}
@@ -100,7 +100,7 @@ export const AdvancedSearchForm = () => {
               label="Year: "
               value={field.value}
               name="year"
-              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm"
+              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
               required={false}
               onChange={field.onChange}
               onBlur={field.onBlur}
@@ -118,7 +118,7 @@ export const AdvancedSearchForm = () => {
               label="Genre: "
               value={field.value}
               name="subject"
-              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm"
+              className="w-full px-2 border border-[var(--border-gray-even)] rounded-lg h-6.5 text-sm focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
               required={false}
               onChange={field.onChange}
               onBlur={field.onBlur}
@@ -136,7 +136,7 @@ export const AdvancedSearchForm = () => {
               label="Language: "
               value={field.value}
               name="language"
-              className="w-full text-center border border-[var(--border-gray-even)] rounded-lg h-6"
+              className="w-full text-center border border-[var(--border-gray-even)] rounded-lg h-6 focus:border-2 focus:border-orange-600 focus:outline-none focus:ring-0"
               required={false}
               onChange={field.onChange}
               onBlur={field.onBlur}
